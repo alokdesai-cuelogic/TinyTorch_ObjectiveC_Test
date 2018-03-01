@@ -59,7 +59,7 @@
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2en-Fa-Kcr">
-                                                <rect key="frame" x="162" y="120" width="50" height="30"/>
+                                                <rect key="frame" x="163" y="120" width="49" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="XdU-gj-9nO"/>
                                                 </constraints>
@@ -72,11 +72,10 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="2en-Fa-Kcr" firstAttribute="leading" secondItem="2Rz-Ra-Ssh" secondAttribute="leading" constant="162" id="02P-Yo-6pM"/>
                                             <constraint firstAttribute="trailing" secondItem="zT6-o3-xUc" secondAttribute="trailing" constant="40" id="4nt-bu-cNk"/>
+                                            <constraint firstItem="2en-Fa-Kcr" firstAttribute="centerX" secondItem="2Rz-Ra-Ssh" secondAttribute="centerX" id="ELh-jq-RQz"/>
                                             <constraint firstItem="6B7-mN-Z23" firstAttribute="top" secondItem="zT6-o3-xUc" secondAttribute="bottom" constant="20" id="NrM-Md-0AW"/>
                                             <constraint firstItem="zT6-o3-xUc" firstAttribute="leading" secondItem="2Rz-Ra-Ssh" secondAttribute="leading" constant="40" id="Rqc-fh-x3N"/>
-                                            <constraint firstAttribute="trailing" secondItem="2en-Fa-Kcr" secondAttribute="trailing" constant="163" id="f6V-DE-zeY"/>
                                             <constraint firstAttribute="trailing" secondItem="6B7-mN-Z23" secondAttribute="trailing" constant="40" id="iOC-iK-9Gw"/>
                                             <constraint firstItem="2en-Fa-Kcr" firstAttribute="top" secondItem="6B7-mN-Z23" secondAttribute="bottom" constant="20" id="r7K-Zb-8Su"/>
                                             <constraint firstItem="zT6-o3-xUc" firstAttribute="top" secondItem="2Rz-Ra-Ssh" secondAttribute="top" constant="20" id="uFs-2F-Flc"/>

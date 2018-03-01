@@ -85,7 +85,8 @@
         NSLog(@"User ID: %@",[[NSUserDefaults standardUserDefaults] stringForKey:@"user_id"]);
         [self launchPostScreen];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
+        [SVProgressHUD dismiss];
+        NSLog(@"JSON: %@", error.description);
     }];
     
 }
